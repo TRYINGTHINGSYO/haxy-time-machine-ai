@@ -1,0 +1,19 @@
+name: Windows tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ['3.12', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit and Git integration tests
+        run: python -m unittest discover -v
+      - name: Fresh offline initialization
+        run: python -m htmai.app --data ci-smoke/data --mode deterministic overview

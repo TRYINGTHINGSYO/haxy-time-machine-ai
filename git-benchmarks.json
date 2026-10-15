@@ -1,0 +1,200 @@
+{
+  "version": 2,
+  "created": "2026-10-15T14:44:23-0500",
+  "question": "How did scrollToRect change?",
+  "methodology": "One cold + at least five warm uncached calls per mode. use_cache=False bypasses both reads and writes. Cold is explicitly unloaded. Warm cases must report effective requested mode; fallback cases are excluded.",
+  "groups": {
+    "cpu": {
+      "cold": {
+        "n": 1,
+        "mean_seconds": 14.500839199999973,
+        "median_seconds": 14.500839199999973,
+        "min_seconds": 14.500839199999973,
+        "max_seconds": 14.500839199999973,
+        "mean_generated_tokens_per_second": 15.33178216156728,
+        "peak_sampled_model_vram_bytes": 0,
+        "minimum_observed_available_ram_bytes": 38270660608
+      },
+      "warm": {
+        "n": 5,
+        "mean_seconds": 7.579783999999563,
+        "median_seconds": 7.138891799999328,
+        "min_seconds": 6.658717000000252,
+        "max_seconds": 10.208399899998767,
+        "mean_generated_tokens_per_second": 15.636638756472127,
+        "peak_sampled_model_vram_bytes": 0,
+        "minimum_observed_available_ram_bytes": 37925576704
+      }
+    },
+    "gpu": {
+      "cold": {
+        "n": 1,
+        "mean_seconds": 11.04679749999923,
+        "median_seconds": 11.04679749999923,
+        "min_seconds": 11.04679749999923,
+        "max_seconds": 11.04679749999923,
+        "mean_generated_tokens_per_second": 21.801946783902423,
+        "peak_sampled_model_vram_bytes": 1348605049,
+        "minimum_observed_available_ram_bytes": 38380453888
+      },
+      "warm": {
+        "n": 5,
+        "mean_seconds": 6.0096017400002895,
+        "median_seconds": 5.198274399999718,
+        "min_seconds": 4.877760400000625,
+        "max_seconds": 7.618681600000855,
+        "mean_generated_tokens_per_second": 22.121893409151493,
+        "peak_sampled_model_vram_bytes": 1348605049,
+        "minimum_observed_available_ram_bytes": 38038122496
+      }
+    }
+  },
+  "search_summary": {
+    "n": 30,
+    "mean_seconds": 0.0025408566666252834,
+    "median_seconds": 0.002457200000208104,
+    "min_seconds": 0.002275099999678787,
+    "max_seconds": 0.0037582999993901467
+  },
+  "cache_summary": {
+    "n": 10,
+    "mean_seconds": 0.010784010000134004,
+    "median_seconds": 0.007458650000444322,
+    "min_seconds": 0.00677209999957995,
+    "max_seconds": 0.03134599999975762
+  },
+  "recorded_only": true,
+  "model": "qwen3.5:4b Q4_K_M",
+  "repository": "Public xit-vcs/xitui sample, twelve-commit window",
+  "configuration": {
+    "num_ctx": 4096,
+    "num_predict": 384,
+    "num_gpu": 12,
+    "temperature": 0.2,
+    "mode": "cpu",
+    "keep_alive": "5m"
+  },
+  "runs": [
+    {
+      "requested_mode": "cpu",
+      "phase": "cold",
+      "wall_seconds": 14.500839199999973,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.33178216156728,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 38270660608
+    },
+    {
+      "requested_mode": "cpu",
+      "phase": "warm",
+      "wall_seconds": 7.138891799999328,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.74078634111188,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 37925576704
+    },
+    {
+      "requested_mode": "cpu",
+      "phase": "warm",
+      "wall_seconds": 10.208399899998767,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.88855396825921,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 38121394176
+    },
+    {
+      "requested_mode": "cpu",
+      "phase": "warm",
+      "wall_seconds": 6.658717000000252,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.814522068024292,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 38020026368
+    },
+    {
+      "requested_mode": "cpu",
+      "phase": "warm",
+      "wall_seconds": 6.710110899999563,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.707771962663436,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 38195531776
+    },
+    {
+      "requested_mode": "cpu",
+      "phase": "warm",
+      "wall_seconds": 7.1828003999999055,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 15.031559442301814,
+      "peak_sampled_model_vram_bytes": 0,
+      "min_observed_available_ram_bytes": 38026448896
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "cold",
+      "wall_seconds": 11.04679749999923,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 21.801946783902423,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38380453888
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "warm",
+      "wall_seconds": 4.884415500000614,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 21.774753721486867,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38487101440
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "warm",
+      "wall_seconds": 7.468876799999634,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 22.537346384631547,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38319181824
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "warm",
+      "wall_seconds": 7.618681600000855,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 22.30446831870385,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38382841856
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "warm",
+      "wall_seconds": 5.198274399999718,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 20.923687305732468,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38038122496
+    },
+    {
+      "requested_mode": "gpu",
+      "phase": "warm",
+      "wall_seconds": 4.877760400000625,
+      "cached": false,
+      "valid_uncached": true,
+      "tokens_per_second": 23.069211315202732,
+      "peak_sampled_model_vram_bytes": 1348605049,
+      "min_observed_available_ram_bytes": 38266675200
+    }
+  ],
+  "note": "Pre-recorded October 15, 2026; no new inference benchmark performed for this release. Runtime responses, local paths, machine identifiers and raw samples excluded."
+}

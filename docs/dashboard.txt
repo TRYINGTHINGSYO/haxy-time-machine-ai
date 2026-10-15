@@ -1,0 +1,19 @@
+
+============================================================================
+ H A X Y   T I M E   M A C H I N E   A I         .     *      +
+============================================================================
+ [haxy] ISSUES 8 | OPEN 4 | CLOSED 4 | DISCUSS 1 | EVENTS 32
+ SYNTHETIC DEMO: fictional reports and test hashes; index a local project for real history.
+ AI enabled on demand | deterministic | model qwen3.5:4b | cache 0/0
+ RECENT:
+ 42ea60b4 comment: Demo maintainer note: reviewed the report and updated the example behavior.
+ 61000183 comment: Demo maintainer note: reviewed the report and updated the example behavior.
+ 04754e32 issue: Repository button does not work after filtering
+----------------------------------------------------------------------------
+ask QUESTION | search WORDS | rank | timeline | time YYYY-MM-DD
+diff DATE DATE | repos | use NAME | sync NAME HTTPS_URL | monitor
+mode cpu/auto/gpu/deterministic | model NAME/auto | ai on/off | quit
+GIT INTELLIGENCE: git-add NAME PATH | git-search QUERY | git-ask QUERY
+git-ai QUERY | git-show SHA | git-compare SHA SHA | git-timeline | cite N
+git-performance | monitor
+observatory>

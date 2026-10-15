@@ -1,0 +1,456 @@
+{
+  "source": "synthetic://haxy-time-machine-ai/demo",
+  "license": "MIT",
+  "synthetic": true,
+  "notice": "Original fictional fixture. IDs and commit hashes are test identifiers, not references to a real Git repository.",
+  "events": [
+    {
+      "commit": "a93404061487ae6df98c39406d5dee36005b590b",
+      "timestamp": 1792022400,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "4005af7b8895fe67d3147f00ae94d005",
+        "kind": "issue",
+        "data": {
+          "title": "Preview panel ignores markup",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "1baa82eb5e3a1cd002f00dee997786b7a71431f0",
+      "timestamp": 1792022460,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "e968314fb304fa3d9cc49180eaa54b14",
+        "kind": "issue",
+        "data": {
+          "title": "Default branch selector needs a refresh",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "1e7f3e9b303fb818c03ce854770c375e6b93fe59",
+      "timestamp": 1792022520,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "8706a577c2d0c8965ac71e5bd635d6dd",
+        "kind": "issue",
+        "data": {
+          "title": "Repository button fails after filtering",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "2ee6a1fd62e1ac31caa84cc558128cdc963344c6",
+      "timestamp": 1792022580,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "a71af3a11a77a60887cfbc90ced76600",
+        "kind": "discuss",
+        "data": {
+          "title": "Offline project planning",
+          "description": "Fictional discussion about maintaining a local repository.",
+          "labels": ""
+        }
+      }
+    },
+    {
+      "commit": "95020e482c8675619e7ef90ef1cee559381eea51",
+      "timestamp": 1792022640,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "dcb14a9425dd86f1760c151902f9c4ff",
+        "kind": "comment",
+        "data": {
+          "thread_id": "8706a577c2d0c8965ac71e5bd635d6dd",
+          "parent_id": "8706a577c2d0c8965ac71e5bd635d6dd",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "13fe1dea06b59a19a7cec83fd1188962d6899c50",
+      "timestamp": 1792022700,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "8706a577c2d0c8965ac71e5bd635d6dd",
+        "kind": "issue",
+        "data": {
+          "title": "Repository button fails after filtering",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "closed"
+        }
+      }
+    },
+    {
+      "commit": "06ccc4716158b40e45a42140f3166a86c9e93511",
+      "timestamp": 1792022760,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "9fdb63a36be59b5677415b76b6f2351d",
+        "kind": "comment",
+        "data": {
+          "thread_id": "e968314fb304fa3d9cc49180eaa54b14",
+          "parent_id": "e968314fb304fa3d9cc49180eaa54b14",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "2001b04840b40e6f0926936b293302e66a9f9ab1",
+      "timestamp": 1792022820,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "e968314fb304fa3d9cc49180eaa54b14",
+        "kind": "issue",
+        "data": {
+          "title": "Default branch selector needs a refresh",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "closed"
+        }
+      }
+    },
+    {
+      "commit": "13f379eb05c06110acb5705a50290e573d7ff056",
+      "timestamp": 1792022880,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "d200883ef031ded90226b173437279ec",
+        "kind": "issue",
+        "data": {
+          "title": "SSH ecdsa key example reports unsupported input",
+          "description": "Fictional example for offline reconstruction and testing. SSH ecdsa authentication input needs review.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "d9cf1aeb64518786be68a3f3a7519dc1c9c2b729",
+      "timestamp": 1792022940,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "d3ba66a0093717c6138ea4c181e9c564",
+        "kind": "issue",
+        "data": {
+          "title": "Repository button does not work after filtering",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "7dfc2daf8e55e5164a86113b569658dba205abfe",
+      "timestamp": 1792023000,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "e7a4e93eed7f3ab5d0410cf5bf812081",
+        "kind": "comment",
+        "data": {
+          "thread_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "parent_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "bd187bc97bc15ccedd24996e7e4373414104641a",
+      "timestamp": 1792023060,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "e7a4e93eed7f3ab5d0410cf5bf812081",
+        "kind": "comment",
+        "data": {
+          "thread_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "parent_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "1af824f6b6aed7f17a7e9e9dbd0fdf1bc0e0b7ff",
+      "timestamp": 1792023120,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "8453447f02becadd92186c4439e9f322",
+        "kind": "issue",
+        "data": {
+          "title": "Add a home navigation shortcut",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "51822679fd14534a58a740e1f003a5fb347eeced",
+      "timestamp": 1792023180,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "8d9d34550bcce71e4bc6701158cf4a76",
+        "kind": "issue",
+        "data": {
+          "title": "Choose a repository comparison mode",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "cee0ee75c93a98a646ec867e480a0b7aa7a8ae2e",
+      "timestamp": 1792023240,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "40317797c38493a0c59e470f3bc09d048c836489",
+      "timestamp": 1792023300,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "f61a5d7e8b60e1b5f0cb297ee5e302a0",
+        "kind": "attach",
+        "data": {
+          "target_id": "2337a033a3c1bf61b70e8be0026d43b6"
+        }
+      }
+    },
+    {
+      "commit": "9128313dec597061186329ea67f9b9cf458dc188",
+      "timestamp": 1792023360,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "f61a5d7e8b60e1b5f0cb297ee5e302a0",
+        "kind": "attach",
+        "data": null
+      }
+    },
+    {
+      "commit": "f8c112d99d658f69d7bbc8c1d1c5422c698bf64d",
+      "timestamp": 1792023420,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "f61a5d7e8b60e1b5f0cb297ee5e302a0",
+        "kind": "attach",
+        "data": null
+      }
+    },
+    {
+      "commit": "97cd0e970ee74d1cad3027914adde6da06beb435",
+      "timestamp": 1792023480,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "cf7cbc16d075db083fb1c773f140cee9aaf2762b",
+      "timestamp": 1792023540,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "6f5316b57318280b848bb0a9b9909d1b536168d5",
+      "timestamp": 1792023600,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "b7dc99bdd7f2cf4df0c64065064471d330948240",
+      "timestamp": 1792023660,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "344d65a821e0fcc335feb23fba6d70b1",
+        "kind": "attach",
+        "data": {
+          "target_id": "2337a033a3c1bf61b70e8be0026d43b6"
+        }
+      }
+    },
+    {
+      "commit": "904da90e06266c83fb47df254df26f76da5afb93",
+      "timestamp": 1792023720,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "344d65a821e0fcc335feb23fba6d70b1",
+        "kind": "attach",
+        "data": null
+      }
+    },
+    {
+      "commit": "58e2272f090971d8f61b285e0edf7eab97e86e50",
+      "timestamp": 1792023780,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "aa5778436bfe742b4f899b21092d0609",
+        "kind": "attach",
+        "data": {
+          "target_id": "2337a033a3c1bf61b70e8be0026d43b6"
+        }
+      }
+    },
+    {
+      "commit": "0b8216e764cc4d938cfa440be84999a71b9e0781",
+      "timestamp": 1792023840,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "4351b68f359e5beed780fdbec79f60cf50efc05e",
+      "timestamp": 1792023900,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "063e4de9dab8b1c9588b801c4facac2bd5e8ef77",
+      "timestamp": 1792023960,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "2337a033a3c1bf61b70e8be0026d43b6",
+        "kind": "issue",
+        "data": {
+          "title": "User grid clips the last row",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "open"
+        }
+      }
+    },
+    {
+      "commit": "8898caf0db00b6d44d981334105245835c6552dd",
+      "timestamp": 1792024020,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "0dd1000b96b4b4aa986c7cac233afa8d",
+        "kind": "comment",
+        "data": {
+          "thread_id": "d200883ef031ded90226b173437279ec",
+          "parent_id": "d200883ef031ded90226b173437279ec",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "2b270d3e2f4218b5382c8e53aabbd14f3501e2b4",
+      "timestamp": 1792024080,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "d200883ef031ded90226b173437279ec",
+        "kind": "issue",
+        "data": {
+          "title": "SSH ecdsa key example reports unsupported input",
+          "description": "Fictional example for offline reconstruction and testing. SSH ecdsa authentication input needs review.",
+          "labels": "",
+          "status": "closed"
+        }
+      }
+    },
+    {
+      "commit": "42ea60b45f91aa4e6563c9f7259e6eccd04154d6",
+      "timestamp": 1792024140,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "15e80e8c5465e63fa8e5faa998acf798",
+        "kind": "comment",
+        "data": {
+          "thread_id": "2337a033a3c1bf61b70e8be0026d43b6",
+          "parent_id": "2337a033a3c1bf61b70e8be0026d43b6",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "61000183473e501182065c6dce16ca1254550841",
+      "timestamp": 1792024200,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "26eaae1fe2b5edde487ce891bb479782",
+        "kind": "comment",
+        "data": {
+          "thread_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "parent_id": "d3ba66a0093717c6138ea4c181e9c564",
+          "body": "Demo maintainer note: reviewed the report and updated the example behavior."
+        }
+      }
+    },
+    {
+      "commit": "04754e324d5bdd84bc9f345edf56bd7970c65800",
+      "timestamp": 1792024260,
+      "author": "Demo Maintainer",
+      "event": {
+        "id": "d3ba66a0093717c6138ea4c181e9c564",
+        "kind": "issue",
+        "data": {
+          "title": "Repository button does not work after filtering",
+          "description": "Fictional example for offline reconstruction and testing. A navigation workflow produces an unexpected result.",
+          "labels": "",
+          "status": "closed"
+        }
+      }
+    }
+  ]
+}
